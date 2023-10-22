@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FReader</title>
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+    <p class="container">Заводов</p>
+    <div class="container">
+        <label class="la">
+            <input type="file"  class="f" id="fileInput" onchange="handleFile(event)" >
+            <span class="s">Выберите файл</span>
+        </label>
+        <input class="search" type="text" id="searchInput" placeholder="Поиск...">
+        <button class="searchB" onclick="performSearch()">Поиск</button>
+    </div>
+    <div class="container">
+        <table class="tab" id="excelData"></table>
+        <p class="find" id="searchResult"></p>
+    </div>
+
+    <script src="https://unpkg.com/xlsx/dist/xlsx.full.min.js"></script>
+    <script src="app.js">
+    </script>
+</body>
+</html>

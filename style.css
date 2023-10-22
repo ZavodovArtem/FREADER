@@ -1,0 +1,106 @@
+.container{
+    display: flex;
+    align-items: center;
+    width: 1024px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 0;
+    justify-content: space-between
+}
+.searchB{
+    border: 0;
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #419152;
+    color: white;
+
+}
+.searchB:hover{
+    color: red;
+    background-color: yellow;
+}
+.search{
+    border: 0;
+    width: 400px;
+    height: 40px;
+    background-color: #419152;
+    border-radius: 4px;
+    color: white;
+}
+.search:hover {
+    background-color: yellow;
+    color: red;
+}
+::placeholder{
+    color: white;
+}
+
+:hover::placeholder {
+    color: red;
+}
+
+.f{
+    position: absolute;
+	z-index: -1;
+	opacity: 0;
+	display: block;
+	width: 0;
+	height: 0;
+
+}
+.la{
+    border: 0;
+    /* display: none; */
+    border: 1px solid #ccc;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.s{
+    position: relative;
+	display: inline-block;
+	cursor: pointer;
+	outline: none;
+	text-decoration: none;
+	font-size: 14px;
+	vertical-align: middle;
+	color: white;
+	text-align: center;
+	border-radius: 4px;
+	background-color: #419152;
+	line-height: 22px;
+	height: 40px;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	border: none;
+	margin: 0;
+	transition: background-color 0.2s;
+}
+.s:hover{
+    color: red;
+    background-color: yellow;
+}
+.tab{
+    border: 2;
+    color: yellow;
+    border-color: #419152;
+
+    border: 1px solid #ccc;
+            background-color: #419152;
+            outline-color: red;
+            outline-style: auto;
+            outline-width: 2px;
+}
+.find {
+    color: red;
+    /* background-color: #419152; */
+    width: 100px;
+    height: 40px;
+    align-items: center;
+    text-align: center;
+    border-radius: 4px;
+}
+.find:hover{
+    color: red;
+}
